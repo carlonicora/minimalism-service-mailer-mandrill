@@ -26,7 +26,6 @@ class MandrillMailer extends AbstractService implements MailerInterface
         private string $MINIMALISM_SERVICE_MAILER_MANDRILL_PASSWORD,
     )
     {
-        parent::__construct();
     }
 
     /**
